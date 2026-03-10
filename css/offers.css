@@ -4,6 +4,17 @@
   align-items: center;
   gap: 24px;
 }
+
+.offers-cards .card {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 280px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
 .card {
   color: var(--text-secondary-color);
   background-color: black;
@@ -56,6 +67,21 @@
 .card.manaus {
   background: url(../img/bg-card-manaus.jpg) no-repeat;
   background-size: cover;
+}
+
+.offers-cards .card {
+  color: var(--text-secondary-color);
+  background-color: black;
+  width: 312px;
+  height: 280px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.offers {
+  margin-bottom: 104px;
 }
 
 @media screen and (min-width: 768px) {
